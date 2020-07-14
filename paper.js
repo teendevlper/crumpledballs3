@@ -19,6 +19,8 @@ class paper{
   
  fill('red');
 // circle(crcl.x,crcl.y,this.radius )
- image(this.image, this.body.position.x,this.body.position.y , 30, 40 );
+ imageMode(CENTER);
+      
+      image(this.image, this.body.position.x,this.body.position.y , 30, 40 );
  }
 }
